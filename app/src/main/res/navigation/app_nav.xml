@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/ranking_page">
+
+    <fragment
+        android:id="@+id/ranking_page"
+        android:name="com.mazure.projetandroid.ranking_page"
+        android:label="ranking_page" >
+        <action
+            android:id="@+id/action_ranking_page_to_search_page"
+            app:destination="@id/search_page" />
+        <action
+            android:id="@+id/action_ranking_page_to_favorites_page"
+            app:destination="@id/favorites_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_page"
+        android:name="com.mazure.projetandroid.search_page"
+        android:label="search_page" >
+        <action
+            android:id="@+id/action_search_page_to_favorites_page"
+            app:destination="@id/favorites_page" />
+        <action
+            android:id="@+id/action_search_page_to_ranking_page"
+            app:destination="@id/ranking_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/favorites_page"
+        android:name="com.mazure.projetandroid.favorites_page"
+        android:label="favorites_page" >
+        <action
+            android:id="@+id/action_favorites_page_to_search_page"
+            app:destination="@id/search_page" />
+        <action
+            android:id="@+id/action_favorites_page_to_ranking_page"
+            app:destination="@id/ranking_page" />
+    </fragment>
+</navigation>

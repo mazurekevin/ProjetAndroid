@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab_classement"
+        android:title="Classement"/>
+    <item android:id="@+id/tab_recherche"
+        android:title="Recherche" />
+    <item android:id="@+id/tab_favoris"
+        android:title="Favoris" />
+</menu>
