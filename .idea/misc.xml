@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/drawable/search.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/layout/favorites_page.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/layout/layout_detail.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/layout/ranking_page.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/layout/search_page.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/layout/search_recyclerview_model.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/ProjetAndroid/app/src/main/res/menu/product_details_tabs.xml" value="0.4466666666666667" />
       </map>
     </option>
